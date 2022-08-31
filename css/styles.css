@@ -1,0 +1,261 @@
+#title{
+  background-color: #F637EC;
+  color: white;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+.h2-description{
+  font-size: 1.5rem;
+}
+h3{
+  font-family: 'Poppins-500', sans-serif;
+  font-weight: bold;
+}
+h5{
+  color:#73777B;
+  font-size: 0.75rem;
+}
+p{
+  color: #7F8487;
+}
+.container-fluid{
+  padding: 7% 15% 2%;
+}
+/* Navigation Bar?# */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 90px;
+}
+.logo{
+  padding-right: 4%;
+}
+.navigation{
+  padding-right: 60px;
+}
+.nav-item{
+  padding:0 15px 0;
+}
+.nav-link{
+  font-weight: bold;
+  color: white;
+}
+.nav-link:hover{
+  color: #3CCF4E;
+}
+.or{
+  padding-top: 5px;
+}
+.title-images{
+  width: 60%;
+}
+}
+.sign-btn{
+  border-radius: 28px;
+  background-color: white;
+  margin: 5% 0;
+}
+
+/* Features */
+#features{
+  padding: 6% 7%;
+  text-align:center;
+}
+.why{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  padding-bottom:6%;
+}
+.features-icon{
+  color:#AB46D2;
+  padding: 1rem;
+}
+#testimonials{
+  padding: 12% 15%;
+  text-align: center;
+  background-color: #A149FA;
+  color:white;
+}
+.test{
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+#pricing{
+  padding: 100px 100px 0;
+  text-align: center;
+}
+.card-header{
+}
+.card-body{
+  height: 400px;
+}
+.pc{
+  padding:3% 2%;
+}
+
+/* Pricing buttton Section */
+.pbtn{
+  width: 100%;
+  border-radius: 28px;
+}
+.btn-ind{
+  margin-top: 120px;
+}
+.btn-duo{
+  margin-top: 120px;
+}
+.btn-std{
+  margin-top: 65px;
+}
+.pricing-plan-features{
+  list-style: none;
+  text-align: left;
+}
+.pricing-plan-features::before{
+  content:"\2713";
+  margin-right: 4px;
+}
+/* accordin */
+#accordin{
+    background-color:  #A149FA;
+  padding: 3% 15% 4%;
+}
+.got{
+  color: black;
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-bottom:7%;
+}
+.accordion-header{
+  height: 60px;
+}
+.accordion-header:hover{
+  background-color: #CFD2CF;
+}
+.accordin-head:hover{
+  background-color: #CFD2CF;
+}
+.accordin-p{
+  color: black;
+  text-align: left;
+}
+.accordin-list{
+  color: black;
+  text-align: left;
+}
+/* accordin elements */
+.create{
+  color: green;
+  font-weight: bold;
+}
+.home{
+  color: green;
+  font-weight: bold;
+}
+
+/* cta */
+#cta{
+  padding:7% 15%;
+  margin: auto 0;
+  text-align:center;
+}
+.ready{
+  color: black;
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.btn-downlaod{
+  margin:4px 8px;
+}
+/* Footer Section */
+#footer{
+  padding: 7% 10% 0%;
+  background: black;
+}
+.footer-logo{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.footer-elements{
+  line-height:2.5;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+a:hover{
+  color: #3CCF4E;
+}
+.footer-contact{
+  margin-right: 120px;
+}
+.footer-brand{
+  color: white;
+  font-size: 2rem;
+  border-radius: circle;
+  padding: 2% 6% ;
+}
+.footer-brand:hover{
+  color:  #3CCF4E;
+}
+.legal{
+  margin-top:80px
+}
+.footer-end{
+  text-decoration:none;
+  padding:4% 3% 0%;
+  font-size:0.75rem;
+}
+.copyright{
+  margin-left: 700px;
+  margin-bottom:100px;
+  font-size: 0.75rem;
+}
+
+
+@media (max-width:1028px) {
+  .or{
+  display: none;
+}
+.title-images{
+  display: none;
+}
+.container-fluid{
+  padding: 15% 5%;
+}
+h1{
+  font-size: 4rem;
+  width: 100%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.logo{
+  padding-right: 4%;
+}
+.got{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+#accordin{
+    background-color:  #A149FA;
+  padding: 3% 5% 4%;
+}
